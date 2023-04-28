@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Tes_SwiftUI
 //
-//  Created by Indah Nurindo on 07/04/2566 BE.
+//  Created by Indah Nurindo on 19/04/2566 BE.
 //
 
 import SwiftUI
@@ -11,17 +11,18 @@ struct ContentView : View {
     var body: some View {
         NavigationView{
             TabView {
-                ListProduct()
+                ProductView()
                     .tabItem {
-                        Image(systemName: "gamecontroller.fill")
-                        Text("Produc")
-                }
-                ListProduct()
+                        Image(systemName: "creditcard")
+                        Text("Product")
+                    }
+                ProductView()
                     .tabItem {
-                        Image(systemName: "heart.fill")
+                        Image(systemName: "heart")
                         Text("Favorite")
-                }
-            }
+                    }
+                
+            }.navigationBarTitle(Text("Product"),displayMode: .inline)
         }
     }
 }
@@ -30,4 +31,3 @@ struct  ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-

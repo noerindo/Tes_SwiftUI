@@ -8,41 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		E013D72929DFAD8A00F17447 /* Tes_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013D72829DFAD8A00F17447 /* Tes_SwiftUIApp.swift */; };
-		E013D72B29DFAD8A00F17447 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013D72A29DFAD8A00F17447 /* ContentView.swift */; };
 		E013D72D29DFAD8B00F17447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E013D72C29DFAD8B00F17447 /* Assets.xcassets */; };
 		E013D73029DFAD8B00F17447 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E013D72F29DFAD8B00F17447 /* Preview Assets.xcassets */; };
 		E013D73229DFAD8B00F17447 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013D73129DFAD8B00F17447 /* Persistence.swift */; };
 		E013D73529DFAD8B00F17447 /* Tes_SwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E013D73329DFAD8B00F17447 /* Tes_SwiftUI.xcdatamodeld */; };
-		E013D73C29DFAEF600F17447 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013D73B29DFAEF600F17447 /* Product.swift */; };
-		E013D74129DFAF5500F17447 /* ServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013D74029DFAF5500F17447 /* ServiceAPI.swift */; };
-		E013D74329DFAFDD00F17447 /* ListProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013D74229DFAFDD00F17447 /* ListProduct.swift */; };
-		E013D74529DFB04100F17447 /* DetailProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013D74429DFB04100F17447 /* DetailProduct.swift */; };
-		E013D74829DFB4BE00F17447 /* ManagerCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013D74729DFB4BE00F17447 /* ManagerCoreData.swift */; };
-		E013D74B29DFB52600F17447 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013D74A29DFB52600F17447 /* Favorite.swift */; };
-		E013D74D29DFB56900F17447 /* FavoritViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013D74C29DFB56900F17447 /* FavoritViewModel.swift */; };
-		E013D74F29DFBCBA00F17447 /*  NSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013D74E29DFBCBA00F17447 /*  NSManagedObject.swift */; };
-		E013D75129DFBE2A00F17447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013D75029DFBE2A00F17447 /* AppDelegate.swift */; };
-		E013D75329DFBE5F00F17447 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013D75229DFBE5F00F17447 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E013D72529DFAD8A00F17447 /* Tes_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tes_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E013D72829DFAD8A00F17447 /* Tes_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tes_SwiftUIApp.swift; sourceTree = "<group>"; };
-		E013D72A29DFAD8A00F17447 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E013D72C29DFAD8B00F17447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E013D72F29DFAD8B00F17447 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E013D73129DFAD8B00F17447 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E013D73429DFAD8B00F17447 /* Tes_SwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tes_SwiftUI.xcdatamodel; sourceTree = "<group>"; };
-		E013D73B29DFAEF600F17447 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		E013D74029DFAF5500F17447 /* ServiceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAPI.swift; sourceTree = "<group>"; };
-		E013D74229DFAFDD00F17447 /* ListProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProduct.swift; sourceTree = "<group>"; };
-		E013D74429DFB04100F17447 /* DetailProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProduct.swift; sourceTree = "<group>"; };
-		E013D74729DFB4BE00F17447 /* ManagerCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerCoreData.swift; sourceTree = "<group>"; };
-		E013D74A29DFB52600F17447 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
-		E013D74C29DFB56900F17447 /* FavoritViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritViewModel.swift; sourceTree = "<group>"; };
-		E013D74E29DFBCBA00F17447 /*  NSManagedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " NSManagedObject.swift"; sourceTree = "<group>"; };
-		E013D75029DFBE2A00F17447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E013D75229DFBE5F00F17447 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				E013D74629DFB4A300F17447 /* CoreData */,
-				E013D73F29DFAF3F00F17447 /* serviceAPI */,
-				E013D73E29DFAF1C00F17447 /* View */,
-				E013D73D29DFAEFA00F17447 /* Model */,
 				E013D72829DFAD8A00F17447 /* Tes_SwiftUIApp.swift */,
 				E013D72C29DFAD8B00F17447 /* Assets.xcassets */,
 				E013D73129DFAD8B00F17447 /* Persistence.swift */,
@@ -95,52 +70,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E013D73D29DFAEFA00F17447 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				E013D73B29DFAEF600F17447 /* Product.swift */,
-				E013D74A29DFB52600F17447 /* Favorite.swift */,
-				E013D74C29DFB56900F17447 /* FavoritViewModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E013D73E29DFAF1C00F17447 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E013D74929DFB4E000F17447 /* Favorite */,
-				E013D72A29DFAD8A00F17447 /* ContentView.swift */,
-				E013D74229DFAFDD00F17447 /* ListProduct.swift */,
-				E013D74429DFB04100F17447 /* DetailProduct.swift */,
-				E013D75029DFBE2A00F17447 /* AppDelegate.swift */,
-				E013D75229DFBE5F00F17447 /* SceneDelegate.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E013D73F29DFAF3F00F17447 /* serviceAPI */ = {
-			isa = PBXGroup;
-			children = (
-				E013D74029DFAF5500F17447 /* ServiceAPI.swift */,
-			);
-			path = serviceAPI;
-			sourceTree = "<group>";
-		};
 		E013D74629DFB4A300F17447 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
 				E013D73329DFAD8B00F17447 /* Tes_SwiftUI.xcdatamodeld */,
-				E013D74729DFB4BE00F17447 /* ManagerCoreData.swift */,
-				E013D74E29DFBCBA00F17447 /*  NSManagedObject.swift */,
 			);
 			path = CoreData;
-			sourceTree = "<group>";
-		};
-		E013D74929DFB4E000F17447 /* Favorite */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Favorite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,18 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E013D73229DFAD8B00F17447 /* Persistence.swift in Sources */,
-				E013D75329DFBE5F00F17447 /* SceneDelegate.swift in Sources */,
-				E013D72B29DFAD8A00F17447 /* ContentView.swift in Sources */,
-				E013D74F29DFBCBA00F17447 /*  NSManagedObject.swift in Sources */,
-				E013D74529DFB04100F17447 /* DetailProduct.swift in Sources */,
-				E013D73C29DFAEF600F17447 /* Product.swift in Sources */,
-				E013D74D29DFB56900F17447 /* FavoritViewModel.swift in Sources */,
 				E013D73529DFAD8B00F17447 /* Tes_SwiftUI.xcdatamodeld in Sources */,
-				E013D74B29DFB52600F17447 /* Favorite.swift in Sources */,
-				E013D75129DFBE2A00F17447 /* AppDelegate.swift in Sources */,
-				E013D74129DFAF5500F17447 /* ServiceAPI.swift in Sources */,
-				E013D74829DFB4BE00F17447 /* ManagerCoreData.swift in Sources */,
-				E013D74329DFAFDD00F17447 /* ListProduct.swift in Sources */,
 				E013D72929DFAD8A00F17447 /* Tes_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

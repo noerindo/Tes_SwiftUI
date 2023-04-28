@@ -2,19 +2,13 @@
 //  Product.swift
 //  Tes_SwiftUI
 //
-//  Created by Indah Nurindo on 07/04/2566 BE.
+//  Created by Indah Nurindo on 19/04/2566 BE.
 //
 
 import Foundation
 
-// MARK: - Post
-struct Post: Codable {
-    let products: [Product]
-    let total, skip, limit: Int
-}
-
 // MARK: - Product
-struct Product: Codable {
+struct Product: Codable, Hashable {
     let id: Int
     let title, description: String
     let price: Int
@@ -25,8 +19,16 @@ struct Product: Codable {
     let images: [String]
 }
 
-extension Post{
+// MARK: - Products
+struct Products: Codable {
+    let products: [Product]
+    let total, skip, limit: Int
+}
+
+extension Products{
     func example() -> Product {
         return products.first!
     }
 }
+
+
