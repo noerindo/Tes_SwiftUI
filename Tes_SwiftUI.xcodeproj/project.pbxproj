@@ -12,6 +12,14 @@
 		E013D73029DFAD8B00F17447 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E013D72F29DFAD8B00F17447 /* Preview Assets.xcassets */; };
 		E013D73229DFAD8B00F17447 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013D73129DFAD8B00F17447 /* Persistence.swift */; };
 		E013D73529DFAD8B00F17447 /* Tes_SwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E013D73329DFAD8B00F17447 /* Tes_SwiftUI.xcdatamodeld */; };
+		E0CBB47029FC188500B14B28 /*  APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CBB46F29FC188500B14B28 /*  APIService.swift */; };
+		E0CBB47429FC18C900B14B28 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CBB47329FC18C900B14B28 /* Product.swift */; };
+		E0CBB47629FC18F500B14B28 /* ProducViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CBB47529FC18F500B14B28 /* ProducViewModel.swift */; };
+		E0CBB47829FC190C00B14B28 /* ProducDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CBB47729FC190C00B14B28 /* ProducDetailViewModel.swift */; };
+		E0CBB47B29FC193D00B14B28 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CBB47A29FC193D00B14B28 /* ProductView.swift */; };
+		E0CBB47D29FC195500B14B28 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CBB47C29FC195500B14B28 /* DetailView.swift */; };
+		E0CBB47F29FC197B00B14B28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CBB47E29FC197B00B14B28 /* ContentView.swift */; };
+		E0CBB48129FC19B100B14B28 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CBB48029FC19B100B14B28 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +29,14 @@
 		E013D72F29DFAD8B00F17447 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E013D73129DFAD8B00F17447 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E013D73429DFAD8B00F17447 /* Tes_SwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tes_SwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		E0CBB46F29FC188500B14B28 /*  APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " APIService.swift"; sourceTree = "<group>"; };
+		E0CBB47329FC18C900B14B28 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E0CBB47529FC18F500B14B28 /* ProducViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducViewModel.swift; sourceTree = "<group>"; };
+		E0CBB47729FC190C00B14B28 /* ProducDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducDetailViewModel.swift; sourceTree = "<group>"; };
+		E0CBB47A29FC193D00B14B28 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		E0CBB47C29FC195500B14B28 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E0CBB47E29FC197B00B14B28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0CBB48029FC19B100B14B28 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,10 @@
 		E013D72729DFAD8A00F17447 /* Tes_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E0CBB46E29FC186400B14B28 /* APIService */,
+				E0CBB46D29FC185A00B14B28 /* View */,
+				E0CBB46C29FC184E00B14B28 /* ViewModel */,
+				E0CBB46B29FC183D00B14B28 /* Model */,
 				E013D74629DFB4A300F17447 /* CoreData */,
 				E013D72829DFAD8A00F17447 /* Tes_SwiftUIApp.swift */,
 				E013D72C29DFAD8B00F17447 /* Assets.xcassets */,
@@ -76,6 +96,50 @@
 				E013D73329DFAD8B00F17447 /* Tes_SwiftUI.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		E0CBB46B29FC183D00B14B28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBB47329FC18C900B14B28 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0CBB46C29FC184E00B14B28 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBB47529FC18F500B14B28 /* ProducViewModel.swift */,
+				E0CBB47729FC190C00B14B28 /* ProducDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E0CBB46D29FC185A00B14B28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBB47929FC192800B14B28 /* Product */,
+				E0CBB47E29FC197B00B14B28 /* ContentView.swift */,
+				E0CBB48029FC19B100B14B28 /* LoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0CBB46E29FC186400B14B28 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBB46F29FC188500B14B28 /*  APIService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		E0CBB47929FC192800B14B28 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBB47A29FC193D00B14B28 /* ProductView.swift */,
+				E0CBB47C29FC195500B14B28 /* DetailView.swift */,
+			);
+			path = Product;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +212,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0CBB47B29FC193D00B14B28 /* ProductView.swift in Sources */,
+				E0CBB47D29FC195500B14B28 /* DetailView.swift in Sources */,
 				E013D73229DFAD8B00F17447 /* Persistence.swift in Sources */,
+				E0CBB48129FC19B100B14B28 /* LoadingView.swift in Sources */,
 				E013D73529DFAD8B00F17447 /* Tes_SwiftUI.xcdatamodeld in Sources */,
+				E0CBB47429FC18C900B14B28 /* Product.swift in Sources */,
+				E0CBB47629FC18F500B14B28 /* ProducViewModel.swift in Sources */,
+				E0CBB47F29FC197B00B14B28 /* ContentView.swift in Sources */,
 				E013D72929DFAD8A00F17447 /* Tes_SwiftUIApp.swift in Sources */,
+				E0CBB47829FC190C00B14B28 /* ProducDetailViewModel.swift in Sources */,
+				E0CBB47029FC188500B14B28 /*  APIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
